@@ -235,7 +235,6 @@ footer {
   .desktop-with-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* margin-bottom: var(--gap-xxl); */
     justify-content: center;
     gap: var(--gap-lg);
   }
