@@ -15,12 +15,13 @@ Usuários deverão ser capazes de:
 
 ### Meu resultado
 
+- Live Site: [Github Page](https://gus-campos.github.io/web-challenge-clipboard/)
+
+#### Screenshots
+
 |  <img width="1393" height="3614" alt="Screenshot 2025-11-13 at 18-10-58 Frontend Mentor Clipboard landing page" src="https://github.com/user-attachments/assets/e4bf0450-6848-4ced-8238-1d709f219a65" /> |  <img width="787" height="5386" alt="Screenshot 2025-11-13 at 18-10-48 Frontend Mentor Clipboard landing page" src="https://github.com/user-attachments/assets/b6dc0a2e-a856-4a08-823b-1be3fb916b66" /> |
 | --- | --- |
 
-### Links
-
-- Live Site: [Github Page](https://gus-campos.github.io/web-challenge-clipboard/)
 
 ## My process
 
