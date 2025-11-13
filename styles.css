@@ -81,8 +81,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: var(--gap-sm) 0;
   gap: var(--space-md);
+  margin-bottom: var(--gap-lg);
 }
 
 .buttons button {
@@ -92,7 +92,7 @@ img {
   font-family: inherit;
   font-weight: 500;
 
-  width: 20em;
+  width: 16em;
   height: 3em;
 
   border-radius: var(--radius-round);
@@ -122,7 +122,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 550px;
+  margin: var(--space-md);
+  max-width: 600px;
 }
 
 .desktop-with-column img {
@@ -134,10 +135,11 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: var(--gap-xl) 0;
+  gap: var(--space-lg);
 }
 
 .feature-item {
-  margin-top: var(--space-xl);
   max-width: 550px;
 }
 
@@ -145,6 +147,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: var(--gap-sm);
+  margin: 0 var(--gap-lg);
 }
 
 .links {
@@ -232,14 +235,14 @@ footer {
   .desktop-with-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: var(--gap-xl) 0;
+    margin-bottom: var(--gap-xxl);
     justify-content: center;
     gap: var(--gap-lg);
   }
 
   .desktop-with-column img {
-    transform: scale(1.25);
-    margin-top: unset;
+    transform: scale(1.4);
+    transform-origin: top right;
   }
 
   .feature-icons {
