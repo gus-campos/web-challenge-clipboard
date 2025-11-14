@@ -131,6 +131,13 @@ img {
   margin: 0 0;
 }
 
+.desktop-with-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .desktop-with-column img {
   padding: var(--space-xl);
 }
