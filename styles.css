@@ -196,6 +196,7 @@ footer {
   align-items: center;
   color: var(--neutral-1);
   gap: var(--space-lg);
+  padding: var(--space-lg) 0;
 }
 
 .socials {
