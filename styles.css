@@ -306,7 +306,6 @@ footer {
   .companies-logos {
     flex-direction: row;
     justify-content: center;
-    /* gap: var(--gap-xs); */
   }
 
   .small-logo {
