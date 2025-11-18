@@ -155,11 +155,12 @@ main {
 .ios-button {
   background-color: var(--primary-color);
   box-shadow: 0 3px var(--primary-shadow);
+  /* , 0 5px 10px 3px var(--primary-color); */
 }
 
 .mac-button {
   background-color: var(--secondary-color);
-  box-shadow: 0 3px var(--secondary-shadow);
+  box-shadow: 0 3px 0 0 var(--secondary-shadow);
 }
 
 .features-descs {
@@ -265,6 +266,10 @@ footer {
 
   .buttons {
     flex-direction: row;
+  }
+
+  .buttons button {
+    width: 13em;
   }
 
   .desktop-section {
