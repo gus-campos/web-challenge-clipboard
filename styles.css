@@ -162,28 +162,16 @@ main {
   box-shadow: 0 3px var(--secondary-shadow);
 }
 
-.desktop-with-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.desktop-with-column img {
-  margin: var(--space-xl);
-}
-
 .features-descs {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   gap: var(--space-lg);
 }
 
-.feature-desc {
-  max-width: 700px;
+.features-descs img {
+  margin-bottom: var(--space-md);
 }
 
 .feature-icons {
@@ -220,7 +208,6 @@ main {
 
 .companies-logos img {
   margin: 0;
-  width: 150px;
 }
 
 .small-logo {
@@ -261,10 +248,14 @@ footer {
     margin: var(--gap-lg) 0;
   }
 
+  .extensible {
+    max-width: 1000px;
+  }
+
   footer {
     flex-direction: row;
     justify-content: space-between;
-    padding: var(--gap-sm) var(--gap-xl);
+    padding: var(--space-xl) var(--gap-xl);
   }
 
   footer a {
@@ -276,17 +267,26 @@ footer {
     flex-direction: row;
   }
 
-  .desktop-with-column {
+  .desktop-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     gap: var(--gap-lg);
     margin-bottom: var(--gap-xxl);
+
+    text-align: start;
   }
 
-  .desktop-with-column img {
-    transform: scale(1.4);
+  .desktop-section img {
+    margin: 0;
+    transform: scale(2.4);
     transform-origin: top right;
+    justify-self: end;
+    align-self: start;
+  }
+
+  .features-descs {
+    margin-top: var(--gap-md);
   }
 
   .feature-icons {
@@ -306,7 +306,7 @@ footer {
   .companies-logos {
     flex-direction: row;
     justify-content: center;
-    gap: var(--gap-xs);
+    /* gap: var(--gap-xs); */
   }
 
   .small-logo {
