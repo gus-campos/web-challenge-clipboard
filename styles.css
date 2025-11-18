@@ -3,11 +3,11 @@
 
 :root {
   --primary-color: hsl(171, 66%, 44%);
-  --primary-shadow: hsl(171, 50%, 30%);
+  --primary-shadow: hsl(171, 66%, 35%);
   --primary-faded: hsl(171, 55%, 60%);
 
   --secondary-color: hsl(233, 100%, 69%);
-  --secondary-shadow: hsl(233, 60%, 50%);
+  --secondary-shadow: hsl(233, 100%, 50%);
   --secondary-faded: hsl(233, 70%, 75%);
 
   --neutral-1: hsl(210, 10%, 33%);
@@ -133,7 +133,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-lg);
+  gap: var(--space-md);
 
   margin: var(--space-lg) 0;
 }
@@ -154,8 +154,9 @@ main {
 
 .ios-button {
   background-color: var(--primary-color);
-  box-shadow: 0 3px var(--primary-shadow);
-  /* , 0 5px 10px 3px var(--primary-color); */
+  box-shadow: 0 3px var(--primary-shadow),
+    0 3px 10px 5px
+      color-mix(in srgb, var(--primary-color) 100%, transparent 80%);
 }
 
 .mac-button {
