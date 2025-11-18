@@ -63,12 +63,34 @@ h3 {
   color: var(--neutral-1);
 }
 
+h1 {
+  font-size: 1.9em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
 img {
   max-width: 100%;
 }
 
 header {
+  display: flex;
   margin-bottom: var(--gap-sm);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 var(--gap-sm);
+}
+
+header .section {
+  margin-top: var(--gap-sm);
 }
 
 .big-logo {
@@ -90,7 +112,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  margin: var(--gap-xl) 0;
+  margin-bottom: var(--gap-xl);
 }
 
 .section > p {
@@ -99,6 +121,12 @@ main {
 
 .section > img {
   margin: var(--gap-md) 0;
+}
+
+.section > .mobile {
+  margin-top: var(--gap-md);
+  margin-bottom: 0;
+  transform: scale(1.1);
 }
 
 .buttons {
@@ -165,12 +193,22 @@ main {
   margin: var(--gap-md) 0;
 }
 
+.feature-icon img {
+  margin: var(--space-md) 0;
+  transform: scale(1.2);
+}
+
 .links {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: column;
   gap: var(--space-lg);
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .companies-logos {
@@ -206,11 +244,11 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: var(--space-lg);
+  gap: var(--space-xl);
 }
 
 .socials i {
-  transform: scale(1.3);
+  font-size: 1.5em;
 }
 
 @media (min-width: 1024px) {
